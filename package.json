@@ -1,0 +1,20 @@
+{
+   "name": "google_search_screaper",
+   "version": "1.0.0",
+   "description": "App that scrape google search page extrating data & checking if the website are 			made using Wordpress... App Not finished yet.",
+   "main": "app.js",
+   "scripts": {
+			"start":"node app.js",
+      "dev": "nodemon app.js"
+   },
+   "keywords": ["Puppeteer", "Google Search", "Web Scrapping"],
+   "author": "",
+   "license": "ISC",
+   "dependencies": {
+      "express": "^4.17.1",
+      "puppeteer": "^2.1.1"
+   },
+   "devDependencies": {
+      "nodemon": "^2.0.2"
+   }
+}
